@@ -1,0 +1,9 @@
+{
+  "name": "xampp-dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "xampp",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [80, 22, 3306],
+  "postCreateCommand": "echo 'Container ready!'",
+  "remoteUser": "root"
+}
